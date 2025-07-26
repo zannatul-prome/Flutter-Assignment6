@@ -8,11 +8,18 @@ void main() {
         body: Center(
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.blue[200],
+              color: Colors.blue[100],
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Row(
-              children: [Text('Zannatul'), Text('   Sylhet'), Text('   black')],
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Flutter is fun\nAnd easy to learn\nStart coding today!',
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.blue[800],
+                fontWeight: FontWeight.w500,
+              ),
+              textAlign: TextAlign.center,
             ),
           ),
         ),
